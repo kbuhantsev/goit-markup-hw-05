@@ -356,7 +356,7 @@ img {
   display: flex;
 }
 
-.social-links .social-item + .social-item {
+.social-links .social-item ~ .social-item {
   margin-left: 10px;
 }
 
