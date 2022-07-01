@@ -637,3 +637,52 @@ img {
   border-right: 1px solid var(--potrfolio-cart-border-color);
   padding: 20px 25px;
 }
+
+/*
+|========================================
+| Modal Window
+|========================================
+*/
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 165, 0, 0.5);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  min-width: 530px;
+  min-height: 580px;
+  padding: 8px;
+
+  background-color: #fff;
+}
+
+.window-controls {
+  display: flex;
+  justify-content: end;
+}
+
+.button-close {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Позиция, геометрия, текст, оформление */
