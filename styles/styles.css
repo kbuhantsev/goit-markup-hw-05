@@ -744,13 +744,12 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   fill: black;
 
-  transition: fill 250ms var(--main-time-func), background-color 250ms var(--main-time-func);
+  transition: fill 250ms var(--main-time-func);
 }
 
 .button-close:hover,
 .button-close:focus {
-  fill: red;
-  background-color: lightpink;
+  fill: var(--accent-blue-color);
 }
 
 /* Позиция, геометрия, текст, оформление */
